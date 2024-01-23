@@ -19,12 +19,8 @@ import { SharedModule } from '../shared/shared.module';
     ProductExplanationComponent,
   ],
   imports: [
-    CommonModule,
     SharedModule,
     RouterModule,
-    BrowserModule,
-    FormsModule,
-    HttpClientModule,
   ]
 })
 export class ProductsModule { }

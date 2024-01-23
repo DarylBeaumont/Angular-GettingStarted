@@ -20,7 +20,6 @@ import { SharedModule } from './shared/shared.module';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
     HttpClientModule,
     AppRoutingModule,
     ProductsModule,
