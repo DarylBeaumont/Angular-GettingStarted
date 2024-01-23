@@ -1,0 +1,6 @@
+<td><img [src]='product?.imageName' [title]='product?.name' alt="" *ngIf="showImage"></td>
+<td>{{product?.name}}</td>
+<td>{{product?.code ?? "" | lowercase | convertToSpaces:'-'}}</td>
+<td>{{product?.releaseDate | date}}</td>
+<td>{{product?.price | currency: "GBP": "symbol" : "1.2-2"}}</td>
+<td>{{product?.starRating}}</td>
