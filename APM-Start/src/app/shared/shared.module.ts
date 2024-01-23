@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ConvertToSpacesPipe } from './convert-to-spaces.pipe';
 import { StarComponent } from './star/star.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,7 @@ import { StarComponent } from './star/star.component';
   ],
   exports: [
     CommonModule,
+    FormsModule,
     ConvertToSpacesPipe,
     StarComponent,
   ]
