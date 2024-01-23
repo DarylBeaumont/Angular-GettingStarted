@@ -71,7 +71,10 @@
               "browserTarget": "apm:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
+          "options": {
+           "proxyConfig": "src/proxy.conf.json" 
+          }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
@@ -101,5 +104,5 @@
   },
   "cli": {
     "analytics": "a5a3699a-303c-4bde-88b8-3260d96a6683"
-  },
+  }
 }
